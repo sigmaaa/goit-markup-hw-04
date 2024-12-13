@@ -220,6 +220,10 @@ section {
     width: calc((100% - 72px) / 4); 
 }
 .benefits-list-item-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
     background-color: #F4F4FD;
     padding: 24px 100px;
     border: 1px solid #8E8F99;
@@ -227,10 +231,6 @@ section {
     margin-bottom: 8px;
 }
 .benefits-list-item-headline {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
     color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
